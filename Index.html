@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+     <script src="https://cdn.optimizely.com/js/28902630411.js"></script>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>[DEMO] Save the Arctic Fox</title>
+    
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://optimizely.github.io/quynh/styles.css' rel='stylesheet'>
+    
+      <script type="text/javascript">
+      window.odp_js_data = "from_js_variable";
+    </script>
+   
+    <script type='text/javascript'>
+  var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","customer","entity","event","subscribe","unsubscribe","consent","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/W4WzcEs-ABgXorzY7h1LCQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+  
+  // Edits to this script should only be made below this line.
+  zaius.event('pageview');
+</script>
+ <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+        section {
+          padding: 20px;
+          color: white;
+          font-size: 16px;
+        }
+
+        div:first-child {
+            padding-left: 20px;
+        }
+
+        #section_id_1 {
+            background-color: #3498db; /* Azul */
+
+            .div_class_1 {
+                background-color: #51565a; /* Azul */
+                padding: 1px 10px;
+                margin: 10px;
+
+                .div_class_1-1 {
+                    background-color: #2ecc71; /* Azul */
+                    padding: 1px 10px;
+                    margin: 10px;
+                }
+
+                .div_class_1-2 {
+                    background-color: #444a89; /* Azul */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+
+                .div_class_1-3 {
+                    background-color: #e74c3c; /* Verde */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+
+                .div_class_1-4 {
+                    background-color: #ccc92e; /* Verde */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+            }
+        }
+      </style>
+    
+  </head>
+  <body class="arctic-fox">
+    <div class='container'>
+      <h1>Save the Arctic Fox</h1>
+      <img src="https://optimizely.github.io/quynh/arctic-fox-banner.jpg" class="banner">
+      <div class="main">
+        <p>Today, there are fewer than 200 Arctic foxes in Norway Sweden, and Finland combined. </p>
+        <p>To save the Arctic foxes, we need to <strong>give them more food</strong> and <strong>control the population of red foxes.</strong></p>
+        <p>Your donation will go towards feeding the Arctic foxes in the summer and winter to make sure they are healthy enough to reproduce. </p>
+      </div>
+      <div class="sidebar">
+        <a href="#" class="button" data-test-section="value-a">Donate Today</a>
+      </div>
+    </div>
+    <div>
+        <h1>Dynamic Selector Tests</h1>
+        <section>
+            <section id="section_id_1" class="section_class_1">
+                <p>&lt;section id="section_id_1" class="section_class_1"&gt;</p>
+                <br/>
+                <div class="div_class_1">
+                    <p>&lt;div class="div_class_1"&gt;</p>
+                    <br/>
+                    <div class="div_class_1-1" data-test-ds="ds-value">
+                        <p>&lt;div class="div_class_1-1" data-test-ds="ds-value"&gt;</p>
+                        <br/>
+                        <div>
+                            <p>Child div_class_1-1</p>
+                          <div>
+                            <p>child1</p>
+                            <div>
+                            <p>child2</p>
+                            </div>
+                          </div>
+                          <div>
+                            <p>child3</p>
+                          </div>
+                          
+                        </div>
+                        <br/>
+                        <div>
+                            <p>child4</p>
+                        </div>
+                        <br/>
+                        <div>
+                            <p>child5</p>
+                        </div>
+                    </div>
+                    <div class="div_class_1-2" data-test-ds="ds-value-2">
+                        <p>&lt;div class="div_class_1-2" data-test-ds="ds-value-2"&gt;</p>
+                        <div>
+                            <p>Child div_class_1-2</p>
+                        </div>
+                    </div>
+                    <div class="div_class_1-3" data-test-ds="ds-value" data-test-another="another-value" data-test-other="other value">
+                        <p>&lt;div class="div_class_1-3" data-test-ds="ds-value" data-test-another="another-value"&gt;</p>
+                    </div>
+                    <div class="div_class_1-1 div_class_1-2 div_class_1-3 div_class_1-4">
+                        <p>&lt;div class="div_class_1-1 div_class_1-2 div_class_1-3 div_class_1-4"&gt;</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div>
+            div1
+            <div>
+                div1-1
+                <div>div1-1-1</div>
+            </div>
+        </div>
+        <br/>
+        <div>
+            div2
+            <div>
+                div2-1
+                <div>div2-1-1</div>
+            </div>
+        </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>
